@@ -32,17 +32,3 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
-
-for (let i = 0; i < data.length; i++) { // código de loop para passar pelo array até que ele acabe
-    let pokemon = data[i] // variável que armazena um item do array "obj"
-
-    console.log('NOME', pokemon.name) // imprime no console o nome do pokemon
-    console.log('DESCRIÇÃO', pokemon.description) // imprime no console a descrição do pokemon
-
-    let types = pokemon.types
-    for (let i = 0; i < types.length; i++) {
-        let type = types[i]
-        console.log('TIPO', type)
-    }
-}
-
