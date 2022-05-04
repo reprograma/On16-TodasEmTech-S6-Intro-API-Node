@@ -1,5 +1,4 @@
-const data = [
-    {
+const data = [{
         "name": "Bulbasaur",
         "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
         "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png",
@@ -28,7 +27,25 @@ const data = [
         "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.  Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
         "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/005.png",
         "types": ["fire"]
-    }
+    },
 ]
 
-// FAÇA O EXERCÍCIO ABAIXO
+// FAÇA O EXERCÍCIO ABAIXO:
+// 02: Apresente os dados dos JSONs no console :
+// [Exercício Pokemón] : o nome, descrição e tipo(separadamente) de cada pokemón.
+
+// Mostra no console a lista de nomes de cada Pokemón.
+
+const pokeListName = data.map(nome => nome.name)
+console.table(pokeListName)
+
+// Mostra no console a lista de descrição de cada Pokemón.
+
+const pokeListDescr = data.map(descricao => descricao.description)
+console.table(pokeListDescr)
+
+
+// Mostra no console a lista dos tipos (separadamente) de Pokemóns.
+
+const arrayTypes = data.map(tipos => tipos.types)
+console.table(arrayTypes)
