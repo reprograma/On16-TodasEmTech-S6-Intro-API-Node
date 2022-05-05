@@ -1,5 +1,7 @@
 //Apresente no console cada um dos atributos desse JS
 
+const script= require("./script")
+
 const obj = [
   {
     "title": "Castle in the Sky",
@@ -24,3 +26,10 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+for(let i=0; i < obj.length; i++){
+  let filmes = obj[i]
+  console.log(filmes)
+  console.log(filmes.title)
+  console.log(filmes.description)
+}

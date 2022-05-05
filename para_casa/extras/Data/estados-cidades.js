@@ -5735,3 +5735,15 @@ const data = [{
     ]
   }
 ]
+
+
+//buscando pela sigla/estados
+const getSigla = (request, response) => {
+  const siglaEstados = request.params.siglaEstados
+  console.log(siglaEstados);
+  response.status(200).send(estcidades.find(estados => estados.siglaEstados == siglaEstados))
+}
+
+
+
+
