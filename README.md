@@ -35,6 +35,10 @@ Um método é considerado idempotente se o resultado de uma requisição realiza
 *Fonte: Wikipedia / Medium: Gabriel Rufino*
 
 ## 4. Cite alguns diferentes padrões de projetos de software
+=======
+3) Apresente os dados dos JS no console
+    - Exercício Ghibli: o título de cada filme e a descrição de cada filme
+    - Exercício Pokemón: o nome, descrição e tipo (separadamente) de cada pokemón
 
 Os três principais padrões de projeto definidos pelo livro **“Design Patterns: Elements of Reusable Object-Oriented Software”** de 1994, escrito por GOF (Gang of Four: Rich Gamma, Richard Helm, Ralph Johnson e John Vlissides) são os **padrões criacionais, estruturais e comportamentais**. Esses padrões foram divididos e agrupados de acordo com a natureza do problema que eles solucionam.
 
@@ -52,3 +56,5 @@ Os três principais padrões de projeto definidos pelo livro **“Design Patter
 - Interpreter
 
 *Fonte: Alura*
+=======
+5) Cite alguns diferentes padrões de projetos de software
