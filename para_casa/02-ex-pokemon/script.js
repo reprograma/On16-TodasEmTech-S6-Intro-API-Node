@@ -32,3 +32,13 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+const listaPokemonNome = data.map(pokemon => pokemon.name) //map para mapear as categorias em lista
+    console.table(listaPokemonNome); 
+
+const descrevePokemon = data.map(pokemon => pokemon.description)
+    console.log(descrevePokemon);
+
+const listaTiposPokemon = data.map(pokemon => pokemon.types)
+    console.log(listaTiposPokemon);
+
+
