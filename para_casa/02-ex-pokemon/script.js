@@ -47,5 +47,7 @@ console.table(pokeListDescr)
 
 // Mostra no console a lista dos tipos de Pokemóns.
 
-const arrayTypes = data.map(tipos => tipos.types)
-console.table(arrayTypes)
+for (let i = 0; i < data.length; i++) {
+    let pokTypes = data[i]
+    console.table(pokTypes.types)
+}
