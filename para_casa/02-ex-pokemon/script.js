@@ -31,7 +31,7 @@ const data = [{
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO:
-// 02: Apresente os dados dos JSONs no console :
+// 02: Apresente os dados dos JS no console :
 // [Exercício Pokemón] : o nome, descrição e tipo(separadamente) de cada pokemón.
 
 // Mostra no console a lista de nomes de cada Pokemón.
@@ -45,7 +45,7 @@ const pokeListDescr = data.map(descricao => descricao.description)
 console.table(pokeListDescr)
 
 
-// Mostra no console a lista dos tipos (separadamente) de Pokemóns.
+// Mostra no console a lista dos tipos de Pokemóns.
 
 const arrayTypes = data.map(tipos => tipos.types)
 console.table(arrayTypes)

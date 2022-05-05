@@ -149,3 +149,38 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+// [Extra 01]: No colors-rgb.js apresente o nome da cor e o codigo RGB
+// Como no exemplo: "gainsboro - rgb(220, 220, 220, 1)"
+
+// Para mostrar no console todas as cores e todos os códigos RGB
+//console.log(obj)
+
+// Para mostrar no console o nome da cor e o código RGB
+
+
+//Para mostrar no console os nomes da cores
+
+
+
+//const arrayNameColors = obj.map((cor) => cor), {
+//    if (typeof arrayNameColors != Number), { 
+//      return arrayNameColors
+// }
+
+
+
+
+
+//let propriedade = "cor"
+//console.log(obj[propriedade])
+
+
+
+//    console.log(arrayNameColors)
+
+
+
+// Para mostrar no console o código RGB de uma cor específica (exemplo de entrada: "yellowgreen")
+//const arrayColor = obj.map(cor => cor["yellowgreen"])
+//console.log(arrayColor)

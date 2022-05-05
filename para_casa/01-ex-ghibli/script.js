@@ -23,7 +23,9 @@ const movies = [{
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO:
-// 01: Mostre no console o título de cada filme e descrição de cada filme.
+// 01: Apresente os dados dos JS no console :
+// [Exercício Ghibli]: o título de cada filme e a descrição de cada filme.
+
 
 // Mostra no console a lista de títulos de todos os filmes
 

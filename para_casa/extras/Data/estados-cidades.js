@@ -5735,3 +5735,7 @@ const data = [{
     ]
   }
 ]
+
+// EXEMPLO 02: No estados-cidade.js apresente o nome do Estado, 
+// a sigla e todas as cidades, sem arrays aparentes no console.
+

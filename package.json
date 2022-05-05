@@ -1,0 +1,23 @@
+{
+  "name": "on16-todasemtech-s6-intro-api-node",
+  "version": "1.0.0",
+  "description": "Turma Online 16 | Back-end | Maio, 2022",
+  "main": "index.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatriz-a-ndrade/On16-TodasEmTech-S6-Intro-API-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatriz-a-ndrade/On16-TodasEmTech-S6-Intro-API-Node/issues"
+  },
+  "homepage": "https://github.com/beatriz-a-ndrade/On16-TodasEmTech-S6-Intro-API-Node#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
