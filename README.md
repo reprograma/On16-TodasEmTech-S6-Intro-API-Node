@@ -36,11 +36,6 @@ Fonte: Wikipedia / Medium: Gabriel Rufino
 
 ## 4. Cite alguns diferentes padrões de projetos de software
 
-=======
-3) Apresente os dados dos JS no console
-    - Exercício Ghibli: o título de cada filme e a descrição de cada filme
-    - Exercício Pokemón: o nome, descrição e tipo (separadamente) de cada pokemón
-
 Os três principais padrões de projeto definidos pelo livro **“Design Patterns: Elements of Reusable Object-Oriented Software”** de 1994, escrito por GOF (Gang of Four: Rich Gamma, Richard Helm, Ralph Johnson e John Vlissides) são os **padrões criacionais, estruturais e comportamentais**. Esses padrões foram divididos e agrupados de acordo com a natureza do problema que eles solucionam.
 
 1) Padrões criacionais: estes padrões oferecem diversas alternativas de criação de objetos, o que aumenta a flexibilidade e a reutilização de código. Alguns dos principais padrões desse tipo são:
@@ -55,12 +50,3 @@ Os três principais padrões de projeto definidos pelo livro **“Design Patter
 - Chain of Responsibility
 - Command
 - Interpreter
-
-<<<<<<< HEAD
-Fonte: Alura
-=======
-*Fonte: Alura*
-=======
-5) Cite alguns diferentes padrões de projetos de software
-
-> > > > > > > 5d041d816471598ec8d4253f6db85428c9123ca0
