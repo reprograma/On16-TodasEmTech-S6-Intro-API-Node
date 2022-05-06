@@ -9,7 +9,7 @@ Abra o PullRequest Respondendo as seguintes questões:
 
 2) Comente, com exemplos, a diferença entre o PUT e o PATCH.
 
-3) Apresente os dados dos JS no console
+3) Apresente os dados dos JSONs no console
     - Exercício Ghibli: o título de cada filme e a descrição de cada filme
     - Exercício Pokemón: o nome, descrição e tipo (separadamente) de cada pokemón
 

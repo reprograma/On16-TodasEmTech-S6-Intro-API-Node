@@ -149,3 +149,21 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//Fazer código Abaixo
+obj.forEach(element => {
+    names = Object.keys(element)
+    values = Object.values(element)
+} )
+let r, g, b, a
+for(i=0; i<values.length; i++) {
+    names[i]
+    values[i]
+     r = values[i][0]
+     g = values[i][1]
+     b = values[i][2]
+     a = values[i][3]
+    rgb = names[i] + " - rgb(" + r + ", " + g + ", " + b + ", " + a + ")";
+    console.log(rgb)
+
+}

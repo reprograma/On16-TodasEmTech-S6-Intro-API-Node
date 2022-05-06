@@ -24,3 +24,9 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+obj.forEach(element => {
+  console.log(element.title) //apenas o título
+  console.log(element.description) //apenas a descrição 
+  console.log(element) //titulo e descrição
+});
