@@ -33,8 +33,12 @@ const data = [
 
 // FAÇA O EXERCÍCIO ABAIXO
 
-data.map((pokemon) => console.log(pokemon.name));
+// data.map((pokemon) => console.log(pokemon.name));
 
-data.map((pokemon) => console.log(pokemon.description));
+// data.map((pokemon) => console.log(pokemon.description));
 
-data.map((pokemon) => pokemon.types.map((type) => console.log(type)));
+data.map((pokemon) => {
+    console.log(`Name: ${pokemon.name}.`)
+    console.log(`Description: ${pokemon.description}`)
+    console.log(`Types: ${pokemon.types.join(", ")}.`)
+});
