@@ -5741,7 +5741,7 @@ const inputNomeEstado = estados.map((estado) => estado.nome)
 //console.table(inputNomeEstado)
 const inputSiglas = estados.map((abreviacao) => abreviacao.sigla)
 //console.table(inputSiglas)
-//const inputCidades = estados.map((cidade) => cidade.cidades)
+const inputCidades = estados.map((cidade) => cidade.cidades)
 //console.log(inputCidades)
 
 console.log(` 
@@ -5749,13 +5749,6 @@ console.log(`
  
  [Siglas dos Estados] : ${inputSiglas} ;
   
+ [Lista de Cidades] : ${inputCidades}
 `)
 
-const questCidades = read.question(" Digite o nome do Estado que você quer consultar as cidades:         ").toUpperCase()
-const confirmacao = read.question(" Tem certeza? S/N:     ").toUpperCase()
-if (confirmacao === "S") {
-  const cidadesFiltradas = estados.filter((cidade) => cidade.cidades === questCidades)
-  console.log(cidadesFiltradas)
-} else {
-  console.log("Fim do algoritmo")
-}
