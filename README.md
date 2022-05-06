@@ -1,23 +1,55 @@
-# On16-TodasEmTech-s6-Intro-API-Node
+# 🚀 On16-TodasEmTech-s6-Intro-API-Node
+
 Turma Online 16 | Back-end | 2022 | Introdução à API:
 HTTP e NodeJS
 
-## Para casa
-Abra o PullRequest Respondendo as seguintes questões:
+![Alt Text](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
 
-1) Qual a relação entre os métodos HTTP e o CRUD?
+## 1. Qual a relação entre os métodos HTTP e o CRUD?
 
-2) Comente, com exemplos, a diferença entre o PUT e o PATCH.
+O protocolo HTTP define um conjunto de **métodos de requisição** responsáveis por indicar a ação a ser executada para um dado recurso. Eles são comumente referenciados como ***HTTP Verbs (Verbos HTTP)***. São oito **métodos**: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS e CONNECT.
 
-3) Apresente os dados dos JS no console
-    - Exercício Ghibli: o título de cada filme e a descrição de cada filme
-    - Exercício Pokemón: o nome, descrição e tipo (separadamente) de cada pokemón
+Já o **CRUD**, é a composição da primeira letra de 4 funções básicas de um sistema que trabalha com banco de dados:
 
-    Opcional: caso queira exercitar mais :). na pasta "extras", temos alguns jsons, você pode:
-    - No colors-rgb.js apresente o nome da cor e o codigo RGB como no exemplo: "gainsboro - rgb(220, 220, 220, 1)"
-    - No estados-cidade.js apresente o nome do Estado, a sigla e todas as cidadades, sem arrays aparentes no console
-    - No filmes.js apresente titulo, plot, generos e lingua. Genero e lingua devem ser apresentados em arrays no console.
+- **C**reate -> POST
+- **R**ead -> GET
+- **U**pdate -> PUT / PATCH
+- **D**elete -> DELETE
 
-4) Defina o conceito de idempotência e como uma API pode ser idempotente
+Os verbos HTTP parecem estar diretamente ligado com o CRUD, mas RESTFul não é um nome bonito para *CRUD*, são coisas distintas.
 
-5) Cite alguns diferentes padrões de projetos de software
+Fonte: MDN Web Docs
+
+## 2. Qual a diferença entre o PUT e o PATCH?
+
+Se preciso atualizar de forma completa um recurso, utilizo o **PUT**. Se essa atualização for parcial, de um subconjunto dos dados do recurso, utilizo o **PATCH**.
+
+Fonte: MDN Web Docs
+
+## 3. Defina o conceito de idempotência e como uma API pode ser idempotente
+
+Em matemática e ciência da computação, a **idempotência** é a propriedade que algumas operações têm de poderem ser aplicadas várias vezes sem que o valor do resultado se altere após a aplicação inicial.
+
+Um método é considerado idempotente se o resultado de uma requisição realizada com sucesso é independente do número de vezes que ela é executada.
+
+Fonte: Wikipedia / Medium: Gabriel Rufino
+
+## 4. Cite alguns diferentes padrões de projetos de software
+
+Os três principais padrões de projeto definidos pelo livro **“Design Patterns: Elements of Reusable Object-Oriented Software”** de 1994, escrito por GOF (Gang of Four: Rich Gamma, Richard Helm, Ralph Johnson e John Vlissides) são os **padrões criacionais, estruturais e comportamentais**. Esses padrões foram divididos e agrupados de acordo com a natureza do problema que eles solucionam.
+
+1) Padrões criacionais: estes padrões oferecem diversas alternativas de criação de objetos, o que aumenta a flexibilidade e a reutilização de código. Alguns dos principais padrões desse tipo são:
+- Factory Method
+- Abstract Factory
+- Builder
+2) Padrões estruturais: Nos mostram como montar objetos e classes em estruturas maiores, sem perder a eficiência e flexibilidade. Alguns dos principais padrões desse tipo são:
+- Adapter
+- Bridge
+- Composite
+3) Padrões comportamentais: Nos ajudam a trabalhar melhor com os algoritmos e com a delegação de responsabilidades entre os objetos. Os padrões que se destacam nesse tipo são:
+- Chain of Responsibility
+- Command
+- Interpreter
+
+Fonte: Alura
+
