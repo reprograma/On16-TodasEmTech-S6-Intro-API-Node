@@ -1,4 +1,4 @@
-const obj = [
+const objt = [
     {
         "Title":"10 Things I Hate About You",
         "Year":"1999",
@@ -75,3 +75,54 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+// No filmes.js apresente titulo, plot, generos e lingua. 
+// Genero e lingua devem ser apresentados em arrays no console.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const filmes = JSON.parse(JSON.stringify(obj))
+         {
+          console.table(filmes)
+      }

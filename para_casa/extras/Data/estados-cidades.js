@@ -1,4 +1,4 @@
-const data = [{
+const dados = [{
     "estados": [
       {
         "sigla": "AC",
@@ -5735,3 +5735,20 @@ const data = [{
     ]
   }
 ]
+
+const data=[
+
+]
+
+
+dados.forEach(pais=>{
+  pais.estados.forEach(estado=>{
+    const {sigla,nome, cidades} = estado
+    console.log(sigla)
+    console.log(nome)
+    cidades.forEach(cidade => {
+     
+      console.log(cidade)
+    })
+  })
+})
