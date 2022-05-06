@@ -1,0 +1,24 @@
+{
+  "name": "on16-todasemtech-s6-intro-api-node",
+  "version": "1.0.0",
+  "description": "Intro de API e Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninaportoc/On16-TodasEmTech-S6-Intro-API-Node.git"
+  },
+  "author": "Marina Porto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninaportoc/On16-TodasEmTech-S6-Intro-API-Node/issues"
+  },
+  "homepage": "https://github.com/ninaportoc/On16-TodasEmTech-S6-Intro-API-Node#readme",
+  "keywords": [],
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

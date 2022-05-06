@@ -32,3 +32,27 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+
+let nome = []
+
+nome = data.map((arr) => arr.name)
+nomeDosPokes = [...new Set(nome)]
+console.table(nomeDosPokes)
+
+let descricao = []
+
+descricoes = data.map((arr) => arr.description)
+descricaoDosPokes = [...new Set(descricoes)]
+console.table(descricaoDosPokes)
+
+let tipos = []
+
+tipos = data.map((arr) => arr.types)
+tiposDosPokes = [...new Set(tipos)]
+console.table(tiposDosPokes)
+
+
+
+
+module.exports = data
