@@ -1,4 +1,4 @@
-const data = [
+const pokemon = [
     {
         "name": "Bulbasaur",
         "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
@@ -31,4 +31,4 @@ const data = [
     }
 ]
 
-// FAÇA O EXERCÍCIO ABAIXO
+module.exports = pokemon
