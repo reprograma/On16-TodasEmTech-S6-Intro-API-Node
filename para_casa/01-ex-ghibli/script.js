@@ -24,3 +24,7 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+obj.forEach((item, index) => {
+  console.log(item);
+});

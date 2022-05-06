@@ -5735,3 +5735,14 @@ const data = [{
     ]
   }
 ]
+
+const obj_estados = data[0]["estados"]
+obj_estados.forEach((item, index) => {
+ const infos = {
+   nome: item.nome,
+   sigla: item.sigla,
+   cidades: item.cidades.join(", ")
+ }
+ console.log(infos)
+});
+
