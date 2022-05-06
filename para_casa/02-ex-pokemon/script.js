@@ -32,3 +32,12 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+data.forEach((item, index) => {
+    const obj_pkm = {
+        name: item.name,
+        description: item.description,
+        types: item.types
+    }
+    console.log(obj_pkm);
+});

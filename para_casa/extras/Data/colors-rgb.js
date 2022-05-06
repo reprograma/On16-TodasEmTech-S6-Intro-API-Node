@@ -149,3 +149,9 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+const obj_item = obj[0]
+for (let index in obj_item){
+    const rgb = obj_item[index].join(", ");
+    console.log(`${index} - rgb(${rgb})`)
+}
