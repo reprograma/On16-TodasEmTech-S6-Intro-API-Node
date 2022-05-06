@@ -32,3 +32,27 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+console.log('------ Nomes dos Pokémons ------')
+for (let i = 0; i < data.length; i++) {
+    let nomePokemon = data[i]
+    console.log(nomePokemon.name)
+}
+console.log('--------------------------------------')
+console.log('------ Descrições dos Pokémons ------')
+for (let i = 0; i < data.length; i++) {
+    let nomePokemon = data[i]
+    let descPokemon = data[i]
+    console.log(nomePokemon.name)
+    console.log('Descrição: ' , descPokemon.description)
+}
+
+console.log('--------------------------------------')
+console.log('------ Tipo dos Pokémons ------')
+for (let i = 0; i < data.length; i++) {
+    let nomePokemon = data[i]
+    let tipoPokemon = data[i]
+    console.log(nomePokemon.name)
+    console.log('Do tipo ', tipoPokemon.types)
+}
+console.log('--------------------------------------')
