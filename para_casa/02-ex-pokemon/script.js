@@ -32,3 +32,9 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+data.map((pokemon) => console.log(pokemon.name));
+
+data.map((pokemon) => console.log(pokemon.description));
+
+data.map((pokemon) => pokemon.types.map((type) => console.log(type)));
