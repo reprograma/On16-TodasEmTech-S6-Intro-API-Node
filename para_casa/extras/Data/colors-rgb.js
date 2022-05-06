@@ -1,4 +1,4 @@
-const obj = [{
+const cores = [{
     "aliceblue": [240, 248, 255, 1],
     "antiquewhite": [250, 235, 215, 1],
     "aqua": [0, 255, 255, 1],
@@ -149,3 +149,13 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//No colors-rgb.js apresente o nome da cor e o codigo RGB como no exemplo: "gainsboro - rgb(220, 220, 220, 1)"
+
+cores.forEach ((rgbs)=>{
+  Object.keys (rgbs).forEach(cor => {
+      const rgb = rgbs[cor]
+      console.log(`${cor} - rgb(${rgb.join(" , ")}`)
+  })
+
+})
