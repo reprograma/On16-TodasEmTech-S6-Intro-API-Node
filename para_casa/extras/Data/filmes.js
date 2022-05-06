@@ -75,3 +75,25 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+//CÓDIGO ABAIXO
+let arrGen = []
+let arrLin = []
+obj.forEach(element => {
+    console.log(element.Title)
+    console.log(element.Plot)
+    genero = element.Genre
+    lingua = element.Language
+    try{
+        arrGen = genero.split(",")
+        arrLin = lingua.split(",")
+    }catch(e){
+        arrGen.push(genero)
+        arrLin.push(lingua)
+    }
+    console.log(arrGen)
+    console.log(arrLin)
+    arrGen = []
+    arrLin = []
+    
+})

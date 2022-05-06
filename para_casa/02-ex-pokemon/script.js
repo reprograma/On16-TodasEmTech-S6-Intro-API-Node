@@ -32,3 +32,12 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+data.forEach(element => {
+    types = element.types
+    console.log(element.name);
+    console.log(element.description);
+    types.forEach(type => {
+        console.log(type)
+    });
+} )

@@ -5735,3 +5735,23 @@ const data = [{
     ]
   }
 ]
+
+//CÓDIGO ABAIXO
+
+const allStates = data.forEach(element => {
+  state = element.estados
+})
+
+
+state.forEach(element => {
+  nomeState = element.nome
+  siglaState = element.sigla
+  console.log(nomeState)
+  console.log(siglaState)
+  cidadesArray = element.cidades
+  cidadesArray.forEach(cidades => {
+    console.log(cidades)
+  })
+})
+
+
