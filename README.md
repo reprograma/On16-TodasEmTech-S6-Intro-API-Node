@@ -18,13 +18,13 @@ Já o **CRUD**, é a composição da primeira letra de 4 funções básicas de u
 
 Os verbos HTTP parecem estar diretamente ligado com o CRUD, mas RESTFul não é um nome bonito para *CRUD*, são coisas distintas.
 
-*Fonte: MDN Web Docs*
+Fonte: MDN Web Docs
 
 ## 2. Qual a diferença entre o PUT e o PATCH?
 
 Se preciso atualizar de forma completa um recurso, utilizo o **PUT**. Se essa atualização for parcial, de um subconjunto dos dados do recurso, utilizo o **PATCH**.
 
-*Fonte: Wikipedia / Medium: Gabriel Rufino*
+Fonte: MDN Web Docs
 
 ## 3. Defina o conceito de idempotência e como uma API pode ser idempotente
 
@@ -32,7 +32,7 @@ Em matemática e ciência da computação, a **idempotência** é a proprie
 
 Um método é considerado idempotente se o resultado de uma requisição realizada com sucesso é independente do número de vezes que ela é executada.
 
-*Fonte: Wikipedia / Medium: Gabriel Rufino*
+Fonte: Wikipedia / Medium: Gabriel Rufino
 
 ## 4. Cite alguns diferentes padrões de projetos de software
 
@@ -51,4 +51,4 @@ Os três principais padrões de projeto definidos pelo livro **“Design Patter
 - Command
 - Interpreter
 
-*Fonte: Alura*
+Fonte: Alura
