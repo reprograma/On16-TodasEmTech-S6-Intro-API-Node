@@ -1,4 +1,4 @@
-const obj = [{
+const cores = [{
     "aliceblue": [240, 248, 255, 1],
     "antiquewhite": [250, 235, 215, 1],
     "aqua": [0, 255, 255, 1],
@@ -149,3 +149,21 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+ 
+//Forma um de fazer 
+/*for (let index = 0; index < cores.length; index++) {
+    for (const [key, value] of Object.entries(cores[index])) {
+        console.log(key, "- rgb(" + value + ")")
+      }
+} */
+// Forma dois de fazer 
+
+    cores.forEach ((rgbs)=>{
+    Object.keys (rgbs).forEach(cor => {
+        const rgb = rgbs[cor]
+        console.log(`${cor} - rgb(${rgb.join(" , ")})`) 
+    })
+
+})
+
+
