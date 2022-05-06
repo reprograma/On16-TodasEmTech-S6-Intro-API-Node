@@ -5735,3 +5735,9 @@ const data = [{
     ]
   }
 ]
+
+console.log("Estados:")
+const nomesEstados = data.map(data => data.estados)
+    console.log(nomesEstados)
+console.log("----------------------------------------------------------------------------------------------------------------")
+
