@@ -75,3 +75,14 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+for (let i = 0; i < obj.length; i++){
+    const filme = obj[i]
+
+    console.log(`
+    ${obj[i].Title.toUpperCase()}
+    ${obj[i].Plot}
+    ${obj[i].Genre}
+    ${obj[i].Language}
+     `)
+}

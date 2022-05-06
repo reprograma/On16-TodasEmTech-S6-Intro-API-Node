@@ -149,3 +149,39 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+// oi prof! nesse exercício eu resolvi me desafiar e fazer a captura sem usar o método
+// foreach(); ao invés disso, tomei como um exercício de manipulação de strings. 
+
+const stringObj = JSON.stringify(obj) //stringificando o objeto
+
+let arrayObj = stringObj.split("],") //dividindo as informações de cada cor, ainda bagunçadas
+
+// definindo as variáveis para iterar cada nome de cor e valor RGB, assim como criar arrays
+// só com os nomes e só com os valores
+let cleanName = ""
+let cleanNames = []
+let cleanRGBs = []
+
+// capturando os nomes
+for (let i = 0; i < arrayObj.length; i++) {
+    for (let j = 0; j < arrayObj[i].length; j++) {
+        if (/[A-Za-z]/.test(arrayObj[i][j])) {
+            cleanName = cleanName + arrayObj[i][j]
+        }
+    }
+    cleanNames.push(cleanName)
+    cleanName = ""
+}
+
+//capturando os valores RGB
+const rgbRegex = /\d+,\d+,\d+,1/g
+for (let i = 0; i < arrayObj.length; i++) {
+    cleanRGBs.push(arrayObj[i].match(rgbRegex))
+}
+cleanRGBs = cleanRGBs.flat()
+
+// mostrando a lista na tela com o formato especificado
+for (let i = 0; i < cleanNames.length; i++) {
+    console.log(`${cleanNames[i]} - rgb(${cleanRGBs[i]})`)
+}

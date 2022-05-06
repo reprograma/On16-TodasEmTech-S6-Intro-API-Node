@@ -24,3 +24,8 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+console.log(`FILMES STUDIO GHIBLI\n`)
+for (let i = 0; i < obj.length; i++) {
+  console.log(`Título: ${obj[i].title}
+  Descrição: ${obj[i].description}\n`)
+}
