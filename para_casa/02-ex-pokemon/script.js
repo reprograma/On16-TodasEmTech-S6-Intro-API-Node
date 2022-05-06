@@ -32,3 +32,20 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+const pokemon = () => {
+    const buscaName = (data.map((item) => item))
+    const buscaDescricao = (data.map((item) => item.description))
+    const buscaTipo = (data.map((item) => item.types))
+
+    console.log(buscaName)
+    console.log(buscaDescricao)
+    console.log(buscaTipo[0][1])
+    console.log(buscaTipo[1][0])
+    console.log(buscaTipo[2][1])
+    console.log(buscaTipo[3][0])
+    console.log(buscaTipo[4][0])
+
+
+} 
+pokemon()
