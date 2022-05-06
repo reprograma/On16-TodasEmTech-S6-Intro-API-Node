@@ -1,4 +1,4 @@
-const data = [
+const pokemons = [
     {
         "name": "Bulbasaur",
         "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
@@ -32,3 +32,23 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+for (let i = 0; i <= pokemons.length - 1; i++) {
+    let pokemonInfo = pokemons[i];
+
+    console.log("POKEMON NAME\n");
+    console.log(`${pokemonInfo.name} \n`);
+
+    console.log("POKEMON DESCRIPTION\n");
+    console.log(`${pokemonInfo.description} \n`);
+
+    console.log("POKEMON IMAGE\n");
+    console.log(`${pokemonInfo.art_url} \n`);
+  
+    console.log("POKEMON TYPE\n");
+    let typeList = pokemonInfo.types;
+    for (let j = 0; j <= typeList.length - 1; j++) {
+        console.log(`${typeList[j]} \n`);
+        console.log(`========== \n`)
+    }
+  }
