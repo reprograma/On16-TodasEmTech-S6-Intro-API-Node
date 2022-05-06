@@ -33,11 +33,22 @@ o verbo POST é normalmente mapeado para o CRUD Create (Criar).
 
 * Em linhas gerais, os métodos HTTP PUT e PATCH são utilizados para indicar uma requisição de alteração de dados. Contudo, o verbo PATCH modifica parcialmente dados de um determinado recurso (como a alteração do nome de um usuário), enquanto o verbo PUT realiza, somente, a substituição total de um documento (como a alteração de todos os dados de um usuário).
 
+* Se o recurso que pretende ser alterado pelo PUT não existir, um novo recurso será criado. Já com o PATCH, isso não ocorre.
+
 
 ~~~
-PUSH ->  (/usuario/1234)  ->  Resultado  ->  {'name': 'João'}
-PUT  ->  (/usuario/1234)  ->  Resultado  ->  {'id': 1234, 'name': 'Joao', 'idade': 25, 'documento': '123.321.12-X'}
+{'id': 1234, 'name': 'Joao', 'idade': 25, 'documento': '123.321.12-X'}
 ~~~
+
+- PATCH
+example payload: ~~~{'name': 'Maria Joana'}~~~
+
+Nesse caso, o PATCH irá alterar apenas o atributo 'name' do objeto colocado como exemplo.
+
+- PUT
+example payload: ~~~{'id': 1234, 'name': 'Maria Joana', 'idade': 30, 'documento': '321.123.32-X'}~~~
+
+Já no PUT a modificação ocorre em todo o objeto.
 
 
 3) Apresente os dados dos JS no console
@@ -53,9 +64,13 @@ PUT  ->  (/usuario/1234)  ->  Resultado  ->  {'id': 1234, 'name': 'Joao', 'idade
 
 >"Um método é considerado idempotente se o resultado de uma requisição realizada com sucesso é independente do número de vezes que é executada."
 
-Implementados corretamente, os métodos seguros e os métodos GET, HEAD, PUT e DELETE são idempotentes.
+Implementados corretamente, os métodos GET, HEAD, PUT, DELETE, OPTIONS são idempotentes. 
 
-CONTINUAR>>>>> bla bla bla
+O POST não é considerado um método idempotente, pois, como sua função é criar um recurso, a cada nova requisição feita, um novo recurso será criado e, consequentemente, irá alterar o estado da aplicação.
+
+O que não acontece com o PUT, por exemplo, que mesmo alterando o estado de uma aplicação, altera apenas uma vez, enviando sempre a mesma resposta da primeira chamada.
+
+
 
 #### 5) Cite alguns diferentes padrões de projetos de software
 
@@ -64,6 +79,12 @@ CONTINUAR>>>>> bla bla bla
 
 [^1]: "Learning JavaScript Design Patterns" - Addy Osmani
 
-* Para utilizar um ou vários padrões de projeto, no entanto, antes é nessário que se faça uma avaliação do projeto e da equipe que integra o projeto, visto que esses padrões podem gerar alguns problemas quando usados de forma equivocada, como a elevação do nível de dificuldade do projeto.
+* Os padrões de projeto são divididos em três categorias separadas por um critério finalístico, que reflete o que um padrão faz. Os padrões podem ter finalidades de **criação**, **comportamental** e **estrutural**.
 
-* Como exemplos, têm-se o *Prototype* e o *Factory Method* como padrões de criação, o *Adapter* e o *Composite* como padrões estruturais, e o *Interpreter* e o *Iterator* como padrões comportamentais.
+1) Padrões de criação: abstraem e/ou adiam o processo de criação de objetos, oferecendo diversas alternativas para isso, o que, consequentemente, dá mais flexibilidade ao projeto. Como exemplos, têm-se o *Prototype* e o *Factory Method*.
+
+2) Padrões estruturais: estão relacionados à forma como classes e objetos são formados para a construção de estruturas maiores, sem ocorrer a perca de flexibilidade e eficiência. Exemplos desses padrões são o *Adapter* e o *Composite*.
+
+3) Padrões de comportamento: preocupam-se com os algoritmos e atribuições de responsabilidades entre os objetos, descrevendo padrões de comunicação entre eles. O *Interpreter* e o *Iterator* são exemplos de padrões comportamentais
+
+* Para utilizar um ou vários padrões de projeto, no entanto, antes é nessário que se faça uma avaliação do projeto e da equipe que integra o projeto, visto que esses padrões podem gerar alguns problemas quando usados de forma equivocada, como a elevação do nível de dificuldade do projeto.
