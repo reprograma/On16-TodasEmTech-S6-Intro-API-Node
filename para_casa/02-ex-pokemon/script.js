@@ -1,4 +1,4 @@
-const data = [
+const pokedex = [
     {
         "name": "Bulbasaur",
         "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
@@ -32,3 +32,17 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+for (let index = 0; index < pokedex.length; index++) {
+    let pokemon = pokedex[index]
+    console.log("\n","-------------------------Pokemon  nº" 
+    + (index + 1) + "-------------------------","\n")
+   
+    console.log(`Nome do pokemon: ${pokemon.name}\n
+    Descrição: ${pokemon.description}\n`)
+
+    for (let index = 0; index < pokemon.types.length; index++) {
+        const element = pokemon.types[index]
+
+        console.log("Tipo: " + element)
+    }
+}

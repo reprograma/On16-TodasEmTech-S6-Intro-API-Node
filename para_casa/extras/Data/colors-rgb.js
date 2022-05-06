@@ -1,4 +1,4 @@
-const obj = [{
+const objs = [{
     "aliceblue": [240, 248, 255, 1],
     "antiquewhite": [250, 235, 215, 1],
     "aqua": [0, 255, 255, 1],
@@ -149,3 +149,24 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+objs.forEach ((rgbs) => {
+    Object.keys (rgbs).forEach(cor => {
+        const rgb = rgbs[cor]
+        console.log(`${cor} - rgb(${rgb.join(", ")})`) 
+    })
+})
+
+//Outra forma
+
+/*for (let index = 0; index < objs.length; index++) {
+    for (const [key, value] of Object.entries(objs[index])) {
+        console.log(key, "- rgb(" + value + ")")
+      }
+}*/
+
+//Outra forma
+
+/*const colors = objs.map((item) => Object.keys(item))[0];
+ colors.map((color) => console.log(`${color} - rgb(${objs[0][color]})`));*/
+

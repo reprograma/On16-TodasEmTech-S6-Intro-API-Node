@@ -1,4 +1,4 @@
-const obj = [
+const objetos = [
     {
         "Title":"10 Things I Hate About You",
         "Year":"1999",
@@ -75,3 +75,15 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+for (let index = 0; index < objetos.length; index++) {
+    const filme = objetos[index]
+
+    console.log("\n","-------------------------Filme nº" 
+    + (index + 1) + "-------------------------","\n")
+
+    console.log(`Título: ${filme.Title}\n
+    Plot: ${filme.Plot}
+    Gênero: ${filme.Genre}
+    Linguagem: ${filme.Language}`)
+}
