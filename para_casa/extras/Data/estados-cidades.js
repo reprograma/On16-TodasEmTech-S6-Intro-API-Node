@@ -5735,3 +5735,20 @@ const data = [{
     ]
   }
 ]
+
+data.forEach((pais) => {
+  pais.estados.forEach((estado) => {
+    const { sigla, nome, cidades } = estado;
+    console.log(
+      "Sigla: " +
+        sigla +
+        "\n" +
+        "Estado: " +
+        nome +
+        "\n Cidade: " +
+        cidades.join("\n Cidade: ")
+    );
+  });
+});
+
+//join transforma todo o array em texto
