@@ -5,7 +5,7 @@ HTTP e NodeJS
 ## Para casa
 Abra o PullRequest Respondendo as seguintes questões:
 
-<h1> 1) Qual a relação entre os métodos HTTP e o CRUD? <h1>
+### 1) Qual a relação entre os métodos HTTP e o CRUD? 
    R: O HTTP é um protocolo usado dentro de um modelo client/server que se baseia em pedidos e respostas por exemplo o client faz uma requisição e o server devolve com as informações que o client pediu.
    Client, são o navegadores padão como google, explore firefox
    Server, é o servidor acessa as informações que o client solicita através de um banco de dados
@@ -29,7 +29,7 @@ Abra o PullRequest Respondendo as seguintes questões:
     Fonte: MDN Web Docs
 
 
-<h1> 2) Comente, com exemplos, a diferença entre o PUT e o PATCH. <h1>
+### 2) Comente, com exemplos, a diferença entre o PUT e o PATCH.
 
 Geralmente, ao usar-se o PUT, fica legível que a alteração do dado será com referência a entidade completa.
 
@@ -43,7 +43,7 @@ Exemplo: (/usuario/1234) :
 
 Resultado: {'name': 'João'}
 
-<h1> 3) Apresente os dados dos JS no console <h1>
+###  3) Apresente os dados dos JS no console
     - Exercício Ghibli: o título de cada filme e a descrição de cada filme
     - Exercício Pokemón: o nome, descrição e tipo (separadamente) de cada pokemón
 
@@ -52,12 +52,12 @@ Resultado: {'name': 'João'}
     - No estados-cidade.js apresente o nome do Estado, a sigla e todas as cidadades, sem arrays aparentes no console
     - No filmes.js apresente titulo, plot, generos e lingua. Genero e lingua devem ser apresentados em arrays no console.
 
-<h1> 4) Defina o conceito de idempotência e como uma API pode ser idempotente <h1>
+### 4) Defina o conceito de idempotência e como uma API pode ser idempotente
  Idempotência , em programação e matemática, é uma propriedade de algumas operações de tal forma que não importa quantas vezes você as execute, você obtém o mesmo resultado. Como tal, uma solicitação POST devemos mude o resultado e isso meios não é idempotente.
 
  FONTE: COMOZED
 
-<h1> 5) Cite alguns diferentes padrões de projetos de software <h1>
+### 5) Cite alguns diferentes padrões de projetos de software
 
 “Cada padrão é uma regra de três partes, que expressa uma relação entre um certo contexto, um problema e uma solução”. Sendo assim para entender a necessidade, existência, de um padrão é necessário estudar suas partes: o problema, a solução e o contexto sobre o qual ele é aplicável.
 
