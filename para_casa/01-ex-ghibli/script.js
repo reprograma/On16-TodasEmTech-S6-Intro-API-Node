@@ -24,3 +24,15 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+
+console.log('------ Abaixo segue Título e Descrição dos Filmes ------')
+for (let i = 0; i < obj.length; i++) {
+  let filme = obj[i]
+  console.log('----Título do filme: ', filme.title, '------')
+  console.log('Descrição: ', filme.description)
+}
+
+
+
+
