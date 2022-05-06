@@ -78,11 +78,18 @@ const obj = [
   },
 ];
 
-const arrayGL = [];
+// obj.map((movie) => console.log(`Title: ${movie.Title}. Plot: ${movie.Plot}`));
+
+// const arrayGL = (obj.map((movie) => `Genre: ${movie.Genre}. Language: ${movie.Language}`));
+
+// console.log(arrayGL);
 
 
-obj.map((movie) => console.log(`Title: ${movie.Title}. Plot: ${movie.Plot}`));
-
-arrayGL.push(obj.map((movie) => `Genre: ${movie.Genre}. Language: ${movie.Language}`));
-
-console.log(arrayGL);
+obj.map((movie) =>
+  console.log(
+    `Title: ${movie.Title}. 
+Plot: ${movie.Plot}.
+Genre and Language:`,
+    [movie.Genre, movie.Language]
+  )
+);
