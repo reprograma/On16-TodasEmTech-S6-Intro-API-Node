@@ -32,3 +32,9 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+console.log("LISTA DE POKEMON\n")
+for (let i = 0; i < data.length; i++){
+console.log(`Nome: ${data[i].name}
+Descrição: ${data[i].description}
+Tipo: ${data[i].types}\n`)
+}
