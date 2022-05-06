@@ -24,11 +24,4 @@ const filmes = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
-
-const listaTitulo = filmes.map(filme => filme.title)
-console.table(listaTitulo)
-
-const listaDescricao = filmes.map(filme => filme.description)
-console.table(listaDescricao)
-
-console.table(filmes)
+module.exports = filmes

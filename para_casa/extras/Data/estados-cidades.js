@@ -5736,13 +5736,16 @@ const data = [{
   }
 ]
 
-data.forEach(pais => {
-  pais.estados.forEach(estado => {
-    const {sigla, nome, cidades } = estado
-    console.log(sigla)
-    console.log(nome)
+
+dados.forEach(pais=>{
+  pais.estados.forEach(estado=>{
+    const {sigla,nome, cidades} = estado
+    console.log('------------------------------------')
+    console.log('Sigla: ' + sigla)
+    console.log('Nome: ' + nome)
     cidades.forEach(cidade => {
-      console.log(cidade)
+
+      console.log('Cidade: ' + cidade)
     })
   })
 })

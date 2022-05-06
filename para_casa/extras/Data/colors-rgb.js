@@ -150,3 +150,9 @@ const obj = [{
     "rebeccapurple": [102, 51, 153, 1]
 }]
 
+cores.forEach ((rgbs) =>{
+    object.keys (rgbs).forEach(cor => {
+        const rgb = rgbs[cor]
+        console.log(`${cor} - rgb(${rgb.join(" , ")})`)
+    })
+    })
