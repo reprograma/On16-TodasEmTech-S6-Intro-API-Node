@@ -149,3 +149,10 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+
+const colors = obj.map((item) => Object.keys(item))[0];
+
+//console.log(colors)
+
+colors.map((color) => console.log(`${color} - rgb(${obj[0][color]})`));

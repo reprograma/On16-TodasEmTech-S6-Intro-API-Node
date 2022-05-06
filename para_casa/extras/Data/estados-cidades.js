@@ -1,9 +1,10 @@
-const data = [{
-    "estados": [
+const data = [
+  {
+    estados: [
       {
-        "sigla": "AC",
-        "nome": "Acre",
-        "cidades": [
+        sigla: "AC",
+        nome: "Acre",
+        cidades: [
           "Acrelândia",
           "Assis Brasil",
           "Brasiléia",
@@ -25,13 +26,13 @@ const data = [{
           "Sena Madureira",
           "Senador Guiomard",
           "Tarauacá",
-          "Xapuri"
-        ]
+          "Xapuri",
+        ],
       },
       {
-        "sigla": "AL",
-        "nome": "Alagoas",
-        "cidades": [
+        sigla: "AL",
+        nome: "Alagoas",
+        cidades: [
           "Água Branca",
           "Anadia",
           "Arapiraca",
@@ -133,13 +134,13 @@ const data = [{
           "Teotônio Vilela",
           "Traipu",
           "União dos Palmares",
-          "Viçosa"
-        ]
+          "Viçosa",
+        ],
       },
       {
-        "sigla": "AM",
-        "nome": "Amazonas",
-        "cidades": [
+        sigla: "AM",
+        nome: "Amazonas",
+        cidades: [
           "Alvarães",
           "Amaturá",
           "Anamã",
@@ -201,13 +202,13 @@ const data = [{
           "Tonantins",
           "Uarini",
           "Urucará",
-          "Urucurituba"
-        ]
+          "Urucurituba",
+        ],
       },
       {
-        "sigla": "AP",
-        "nome": "Amapá",
-        "cidades": [
+        sigla: "AP",
+        nome: "Amapá",
+        cidades: [
           "Amapá",
           "Calçoene",
           "Cutias",
@@ -223,13 +224,13 @@ const data = [{
           "Santana",
           "Serra do Navio",
           "Tartarugalzinho",
-          "Vitória do Jari"
-        ]
+          "Vitória do Jari",
+        ],
       },
       {
-        "sigla": "BA",
-        "nome": "Bahia",
-        "cidades": [
+        sigla: "BA",
+        nome: "Bahia",
+        cidades: [
           "Abaíra",
           "Abaré",
           "Acajutiba",
@@ -646,13 +647,13 @@ const data = [{
           "Wagner",
           "Wanderley",
           "Wenceslau Guimarães",
-          "Xique-Xique"
-        ]
+          "Xique-Xique",
+        ],
       },
       {
-        "sigla": "CE",
-        "nome": "Ceará",
-        "cidades": [
+        sigla: "CE",
+        nome: "Ceará",
+        cidades: [
           "Abaiara",
           "Acarapé",
           "Acaraú",
@@ -836,13 +837,13 @@ const data = [{
           "Uruoca",
           "Varjota",
           "Várzea Alegre",
-          "Viçosa do Ceará"
-        ]
+          "Viçosa do Ceará",
+        ],
       },
       {
-        "sigla": "DF",
-        "nome": "Distrito Federal",
-        "cidades": [
+        sigla: "DF",
+        nome: "Distrito Federal",
+        cidades: [
           "Águas Claras",
           "Brasília",
           "Ceilândia",
@@ -853,13 +854,13 @@ const data = [{
           "Recanto das Emas",
           "Samambaia",
           "Santa Maria",
-          "Taguatinga"
-        ]
+          "Taguatinga",
+        ],
       },
       {
-        "sigla": "ES",
-        "nome": "Espírito Santo",
-        "cidades": [
+        sigla: "ES",
+        nome: "Espírito Santo",
+        cidades: [
           "Afonso Cláudio",
           "Água Doce do Norte",
           "Águia Branca",
@@ -937,13 +938,13 @@ const data = [{
           "Vila Pavão",
           "Vila Valério",
           "Vila Velha",
-          "Vitória"
-        ]
+          "Vitória",
+        ],
       },
       {
-        "sigla": "GO",
-        "nome": "Goiás",
-        "cidades": [
+        sigla: "GO",
+        nome: "Goiás",
+        cidades: [
           "Abadia de Goiás",
           "Abadiânia",
           "Acreúna",
@@ -1189,13 +1190,13 @@ const data = [{
           "Vianópolis",
           "Vicentinópolis",
           "Vila Boa",
-          "Vila Propício"
-        ]
+          "Vila Propício",
+        ],
       },
       {
-        "sigla": "MA",
-        "nome": "Maranhão",
-        "cidades": [
+        sigla: "MA",
+        nome: "Maranhão",
+        cidades: [
           "Açailândia",
           "Afonso Cunha",
           "Água Doce do Maranhão",
@@ -1412,13 +1413,13 @@ const data = [{
           "Vila Nova dos Martírios",
           "Vitória do Mearim",
           "Vitorino Freire",
-          "Zé Doca"
-        ]
+          "Zé Doca",
+        ],
       },
       {
-        "sigla": "MG",
-        "nome": "Minas Gerais",
-        "cidades": [
+        sigla: "MG",
+        nome: "Minas Gerais",
+        cidades: [
           "Abadia dos Dourados",
           "Abaeté",
           "Abre Campo",
@@ -2271,13 +2272,13 @@ const data = [{
           "Virgolândia",
           "Visconde do Rio Branco",
           "Volta Grande",
-          "Wenceslau Braz"
-        ]
+          "Wenceslau Braz",
+        ],
       },
       {
-        "sigla": "MS",
-        "nome": "Mato Grosso do Sul",
-        "cidades": [
+        sigla: "MS",
+        nome: "Mato Grosso do Sul",
+        cidades: [
           "Água Clara",
           "Alcinópolis",
           "Amambaí",
@@ -2354,13 +2355,13 @@ const data = [{
           "Taquarussu",
           "Terenos",
           "Três Lagoas",
-          "Vicentina"
-        ]
+          "Vicentina",
+        ],
       },
       {
-        "sigla": "MT",
-        "nome": "Mato Grosso",
-        "cidades": [
+        sigla: "MT",
+        nome: "Mato Grosso",
+        cidades: [
           "Acorizal",
           "Água Boa",
           "Alta Floresta",
@@ -2499,13 +2500,13 @@ const data = [{
           "Várzea Grande",
           "Vera",
           "Vila Bela da Santíssima Trindade",
-          "Vila Rica"
-        ]
+          "Vila Rica",
+        ],
       },
       {
-        "sigla": "PA",
-        "nome": "Pará",
-        "cidades": [
+        sigla: "PA",
+        nome: "Pará",
+        cidades: [
           "Abaetetuba",
           "Abel Figueiredo",
           "Acará",
@@ -2648,13 +2649,13 @@ const data = [{
           "Vigia",
           "Viseu",
           "Vitória do Xingu",
-          "Xinguara"
-        ]
+          "Xinguara",
+        ],
       },
       {
-        "sigla": "PB",
-        "nome": "Paraíba",
-        "cidades": [
+        sigla: "PB",
+        nome: "Paraíba",
+        cidades: [
           "Água Branca",
           "Aguiar",
           "Alagoa Grande",
@@ -2877,13 +2878,13 @@ const data = [{
           "Várzea",
           "Vieirópolis",
           "Vista Serrana",
-          "Zabelê"
-        ]
+          "Zabelê",
+        ],
       },
       {
-        "sigla": "PE",
-        "nome": "Pernambuco",
-        "cidades": [
+        sigla: "PE",
+        nome: "Pernambuco",
+        cidades: [
           "Abreu e Lima",
           "Afogados da Ingazeira",
           "Afrânio",
@@ -3068,13 +3069,13 @@ const data = [{
           "Vertentes",
           "Vicência",
           "Vitória de Santo Antão",
-          "Xexéu"
-        ]
+          "Xexéu",
+        ],
       },
       {
-        "sigla": "PI",
-        "nome": "Piauí",
-        "cidades": [
+        sigla: "PI",
+        nome: "Piauí",
+        cidades: [
           "Acauã",
           "Agricolândia",
           "Água Branca",
@@ -3296,13 +3297,13 @@ const data = [{
           "Várzea Grande",
           "Vera Mendes",
           "Vila Nova do Piauí",
-          "Wall Ferraz"
-        ]
+          "Wall Ferraz",
+        ],
       },
       {
-        "sigla": "PR",
-        "nome": "Paraná",
-        "cidades": [
+        sigla: "PR",
+        nome: "Paraná",
+        cidades: [
           "Abatiá",
           "Adrianópolis",
           "Agudos do Sul",
@@ -3701,13 +3702,13 @@ const data = [{
           "Virmond",
           "Vitorino",
           "Wenceslau Braz",
-          "Xambrê"
-        ]
+          "Xambrê",
+        ],
       },
       {
-        "sigla": "RJ",
-        "nome": "Rio de Janeiro",
-        "cidades": [
+        sigla: "RJ",
+        nome: "Rio de Janeiro",
+        cidades: [
           "Angra dos Reis",
           "Aperibé",
           "Araruama",
@@ -3799,13 +3800,13 @@ const data = [{
           "Valença",
           "Varre-Sai",
           "Vassouras",
-          "Volta Redonda"
-        ]
+          "Volta Redonda",
+        ],
       },
       {
-        "sigla": "RN",
-        "nome": "Rio Grande do Norte",
-        "cidades": [
+        sigla: "RN",
+        nome: "Rio Grande do Norte",
+        cidades: [
           "Acari",
           "Açu",
           "Afonso Bezerra",
@@ -3972,13 +3973,13 @@ const data = [{
           "Venha-Ver",
           "Vera Cruz",
           "Viçosa",
-          "Vila Flor"
-        ]
+          "Vila Flor",
+        ],
       },
       {
-        "sigla": "RO",
-        "nome": "Rondônia",
-        "cidades": [
+        sigla: "RO",
+        nome: "Rondônia",
+        cidades: [
           "Alta Floresta d'Oeste",
           "Alto Alegre do Parecis",
           "Alto Paraíso",
@@ -4030,13 +4031,13 @@ const data = [{
           "Urupá",
           "Vale do Anari",
           "Vale do Paraíso",
-          "Vilhena"
-        ]
+          "Vilhena",
+        ],
       },
       {
-        "sigla": "RR",
-        "nome": "Roraima",
-        "cidades": [
+        sigla: "RR",
+        nome: "Roraima",
+        cidades: [
           "Alto Alegre",
           "Amajari",
           "Boa Vista",
@@ -4051,13 +4052,13 @@ const data = [{
           "Rorainópolis",
           "São João da Baliza",
           "São Luiz",
-          "Uiramutã"
-        ]
+          "Uiramutã",
+        ],
       },
       {
-        "sigla": "RS",
-        "nome": "Rio Grande do Sul",
-        "cidades": [
+        sigla: "RS",
+        nome: "Rio Grande do Sul",
+        cidades: [
           "Aceguá",
           "Água Santa",
           "Agudo",
@@ -4553,13 +4554,13 @@ const data = [{
           "Vista Gaúcha",
           "Vitória das Missões",
           "Westfália",
-          "Xangri-lá"
-        ]
+          "Xangri-lá",
+        ],
       },
       {
-        "sigla": "SC",
-        "nome": "Santa Catarina",
-        "cidades": [
+        sigla: "SC",
+        nome: "Santa Catarina",
+        cidades: [
           "Abdon Batista",
           "Abelardo Luz",
           "Agrolândia",
@@ -4852,13 +4853,13 @@ const data = [{
           "Xanxerê",
           "Xavantina",
           "Xaxim",
-          "Zortéa"
-        ]
+          "Zortéa",
+        ],
       },
       {
-        "sigla": "SE",
-        "nome": "Sergipe",
-        "cidades": [
+        sigla: "SE",
+        nome: "Sergipe",
+        cidades: [
           "Amparo de São Francisco",
           "Aquidabã",
           "Aracaju",
@@ -4933,13 +4934,13 @@ const data = [{
           "Telha",
           "Tobias Barreto",
           "Tomar do Geru",
-          "Umbaúba"
-        ]
+          "Umbaúba",
+        ],
       },
       {
-        "sigla": "SP",
-        "nome": "São Paulo",
-        "cidades": [
+        sigla: "SP",
+        nome: "São Paulo",
+        cidades: [
           "Adamantina",
           "Adolfo",
           "Aguaí",
@@ -5584,13 +5585,13 @@ const data = [{
           "Vitória Brasil",
           "Votorantim",
           "Votuporanga",
-          "Zacarias"
-        ]
+          "Zacarias",
+        ],
       },
       {
-        "sigla": "TO",
-        "nome": "Tocantins",
-        "cidades": [
+        sigla: "TO",
+        nome: "Tocantins",
+        cidades: [
           "Abreulândia",
           "Aguiarnópolis",
           "Aliança do Tocantins",
@@ -5729,9 +5730,23 @@ const data = [{
           "Tupirama",
           "Tupiratins",
           "Wanderlândia",
-          "Xambioá"
-        ]
-      }
-    ]
-  }
-]
+          "Xambioá",
+        ],
+      },
+    ],
+  },
+];
+
+data.forEach((pais) => {
+  pais.estados.forEach((estado) => {
+    const { sigla, nome, cidades } = estado;
+    console.log(
+      `Estado: ${nome}. 
+      Sigla: ${sigla}. 
+      Cidades: ${cidades.join(`
+      `)}`
+    );
+  });
+});
+
+//join transforma todo o array em texto
