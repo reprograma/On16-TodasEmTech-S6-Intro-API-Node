@@ -41,12 +41,20 @@ o verbo POST é normalmente mapeado para o CRUD Create (Criar).
 ~~~
 
 - PATCH
-example payload: ~~~{'name': 'Maria Joana'}~~~
+example payload:
+
+~~~
+{'name': 'Maria Joana'}
+~~~
 
 Nesse caso, o PATCH irá alterar apenas o atributo 'name' do objeto colocado como exemplo.
 
 - PUT
-example payload: ~~~{'id': 1234, 'name': 'Maria Joana', 'idade': 30, 'documento': '321.123.32-X'}~~~
+example payload: 
+
+~~~
+{'id': 1234, 'name': 'Maria Joana', 'idade': 30, 'documento': '321.123.32-X'}
+~~~
 
 Já no PUT a modificação ocorre em todo o objeto.
 
