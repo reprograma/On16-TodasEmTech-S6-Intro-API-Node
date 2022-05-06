@@ -24,3 +24,10 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+
+// const listarFilmes = obj.map((filme) => console.table(`Title: ${filme.title}. \n Description: ${filme.description}`))
+
+
+
+console.log(obj)
