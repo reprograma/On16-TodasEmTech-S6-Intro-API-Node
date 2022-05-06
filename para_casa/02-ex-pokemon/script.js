@@ -32,3 +32,8 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+for ( let i = 0; i < data.length; i++){
+    console.log(data[i].name)
+    console.log(data[i].description)
+    console.log(data[i].types)
+}

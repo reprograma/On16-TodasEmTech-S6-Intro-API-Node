@@ -23,4 +23,8 @@ const obj = [
   }
 ]
 
-// FAÇA O EXERCÍCIO ABAIXO
+// FAÇA O EXERCÍCIO 
+
+for ( let i = 0; i < obj.length; i++)
+{  console.log(obj[i].title)
+console.log(obj[i].description) }
