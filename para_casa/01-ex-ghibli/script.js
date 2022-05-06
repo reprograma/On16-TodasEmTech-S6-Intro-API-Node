@@ -24,3 +24,9 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+for(let i = 0; i < obj.length; i++){
+  let filmes = obj[i]
+  console.log(filmes.title)
+  console.log(filmes.description)
+}
