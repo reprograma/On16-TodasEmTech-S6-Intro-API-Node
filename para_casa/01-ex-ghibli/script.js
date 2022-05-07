@@ -24,3 +24,9 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+const movieTitles = obj.map(obj => obj.title)
+console.log(movieTitles)
+
+const movieDescription = obj.map(obj=>obj.description)
+console.log(movieDescription)
