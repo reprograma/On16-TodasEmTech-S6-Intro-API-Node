@@ -32,3 +32,16 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+// - Exercício Pokemón: o nome, descrição e tipo (separadamente) de cada pokemón
+
+console.log('nome')
+for (let i = 0; i < data.length; i++) {
+    let nomePokemon = data[i]
+    console.log(nomePokemon.name)
+    let descPokemon = data[i]
+    console.log(`Descrição:  , ${descPokemon.description}`)
+    let tipoPokemon = data[i]
+   
+    console.log(`tipo ', ${tipoPokemon.types}`)
+}
