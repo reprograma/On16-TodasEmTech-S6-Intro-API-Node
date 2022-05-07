@@ -1,0 +1,20 @@
+{
+  "name": "on16-todasemtech-s6-intro-api-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claraguta/On16-TodasEmTech-S6-Intro-API-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claraguta/On16-TodasEmTech-S6-Intro-API-Node/issues"
+  },
+  "homepage": "https://github.com/claraguta/On16-TodasEmTech-S6-Intro-API-Node#readme"
+}
