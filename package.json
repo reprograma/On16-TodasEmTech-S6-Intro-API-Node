@@ -1,0 +1,19 @@
+{
+  "name": "on16-todasemtech-s6-intro-api-node",
+  "version": "1.0.0",
+  "description": "Projeto API ",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caveroni/On16-TodasEmTech-S6-Intro-API-Node.git"
+  },
+  "author": "Maria Veronica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caveroni/On16-TodasEmTech-S6-Intro-API-Node/issues"
+  },
+  "homepage": "https://github.com/caveroni/On16-TodasEmTech-S6-Intro-API-Node#readme"
+}
