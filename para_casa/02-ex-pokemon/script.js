@@ -31,4 +31,6 @@ const data = [
     }
 ]
 
+module.exports = data
+
 // FAÇA O EXERCÍCIO ABAIXO

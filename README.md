@@ -21,3 +21,4 @@ Abra o PullRequest Respondendo as seguintes questões:
 4) Defina o conceito de idempotência e como uma API pode ser idempotente
 
 5) Cite alguns diferentes padrões de projetos de software
+

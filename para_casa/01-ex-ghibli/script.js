@@ -24,3 +24,5 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+module.exports = obj
