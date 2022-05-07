@@ -24,3 +24,11 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+// 3) Apresente os dados dos JS no console
+// - Exercício Ghibli: o título de cada filme e a descrição de cada filme
+
+console.log(`titulo e descricao`)
+for (let n = 0; n < obj.length; n++) {
+  let item = obj[n]
+  console.log( item.title, item.description)
+}
