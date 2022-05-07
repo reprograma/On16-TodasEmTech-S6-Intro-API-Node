@@ -24,3 +24,11 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+// Apresente os dados dos JS no console:
+// o título de cada filme e a descrição de cada filme
+
+const mostrarTitulo = obj.map((filmes) => filmes.title)
+    console.log(mostrarTitulo)
+
+const mostrarDescriçao = obj.map((filmes) => filmes.description)
+    console.log(mostrarDescriçao)
