@@ -32,3 +32,13 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+
+const pokemonName = data.map(data=>data.name)
+console.log(pokemonName)
+
+const pokemonDescription = data.map(data=>data.description)
+console.log(pokemonDescription)
+
+const pokemonType = data.map(data=>data.types)
+console.log(pokemonType)
