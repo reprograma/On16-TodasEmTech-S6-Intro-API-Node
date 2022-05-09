@@ -7,7 +7,9 @@ Abra o PullRequest Respondendo as seguintes questões:
 
 1) Qual a relação entre os métodos HTTP e o CRUD?
 
-C é de create 
+C é de create que significa criação.
+
+R é read que significa lê
 
 2) Comente, com exemplos, a diferença entre o PUT e o PATCH.
 
