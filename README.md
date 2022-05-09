@@ -7,6 +7,8 @@ Abra o PullRequest Respondendo as seguintes questões:
 
 1) Qual a relação entre os métodos HTTP e o CRUD?
 
+C é de create 
+
 2) Comente, com exemplos, a diferença entre o PUT e o PATCH.
 
 3) Apresente os dados dos JS no console
