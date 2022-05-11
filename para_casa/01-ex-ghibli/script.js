@@ -24,3 +24,26 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+function imprimirTitulo(){
+  for(i=0;i<obj.length;i++){
+    console.log(obj[i].title)
+  }
+}
+imprimirTitulo()
+
+function imprimirDescricao(){
+   for(i=0;i<obj.length;i++){
+     console.log(obj[i].description)
+   }
+}
+imprimirDescricao()
+
+function imprimirTitulo(){
+  for(i=0;i<obj.length;i++){
+     console.log(obj[i].title)
+   }
+}
+imprimirTitulo()
+
+
