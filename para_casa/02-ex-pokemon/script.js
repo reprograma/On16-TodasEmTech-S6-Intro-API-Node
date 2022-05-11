@@ -32,3 +32,13 @@ const data = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+//Exercício Pokemón: o nome, descrição e tipo (separadamente) de cada pokemón
+function imprimirInformacoesDoPokemon(){
+    for(i=0;i<data.length;i++){
+       console.log("nome: "+data[i].name +"\n tipo: "+ data[i].types + "\n descrição: "+ data[i].description)
+     }
+  }
+  imprimirInformacoesDoPokemon()
+
+  
