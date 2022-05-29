@@ -1,6 +1,19 @@
 # On16-TodasEmTech-s6-Intro-API-Node
-Turma Online 16 | Back-end | 2022 | Introdução à API:
+Turma Online 16 | Back-end 🎓​| 2022 | Introdução à API:
 HTTP e NodeJS
+
+
+## 👩🏼‍💻​ O que aprendi nesta semana?
+
+- Importância de um DEV Back-end utilizar o terminal GITBASH;
+- ✍️ A criar package.json utilizando duas formas npm init(forma mais detalhada) ou npm init -y (forma direta a qual poderá alterar dados posteriormente diretamente na pasta package.json);
+- 🗄️​ Arquivo Json na sua forma mais pura NÃO 🚫​(aceita) comentários, salvo nos analisadores no estilo C, mas devem ser evitados para otimizar a compatibilidade;
+- Entendendo a seção Scripts: esta possui algumas tarefas padrões(start, test, install e etc...)
+- 🎬​ Scripts no package.json é um roteiro, o qual pode ser adaptado para o projeto ou seja tudo que for informado neste campo será executado, um exemplo: "start": index.js (toda vez que utilizar no terminal node index.js) será renderizado;
+- 📢​ Dica da profe Paula, assim que pegar um projeto novo abra o package.json para verificar os comandos que já estão definidos no scripts.
+- Verificar a versão do projetos
+- Modules (import e exports)
+- Require
 
 ## Para casa
 Abra o PullRequest Respondendo as seguintes questões:
