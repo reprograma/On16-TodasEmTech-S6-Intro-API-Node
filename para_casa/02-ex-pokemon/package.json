@@ -1,0 +1,12 @@
+{
+  "name": "02-ex-pokemon",
+  "version": "1.0.0",
+  "description": "Exercicio de API",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "author": "Nilva Pires",
+  "license": "ISC"
+}

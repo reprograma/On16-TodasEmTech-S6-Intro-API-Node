@@ -23,11 +23,12 @@ const obj = [
   }
 ]
 
-// FAÇA O EXERCÍCIO ABAIXO
+// FAÇA O EXERCÍCIO ABAIXO: o codigo deverá  retornar no console.log o titulo e a descrição de cada elemento.
 
-console.log('------ Abaixo segue Título e Descrição dos Filmes ------')
+console.log('Abaixo segue Título e Descrição dos Filmes')
 for (let i = 0; i < obj.length; i++) {
   let filme = obj[i]
-  console.log('----Título do filme: ', filme.title, '------')
+  console.log('Título do filme: ', filme.title, '-')
   console.log('Descrição: ', filme.description)
 }
+

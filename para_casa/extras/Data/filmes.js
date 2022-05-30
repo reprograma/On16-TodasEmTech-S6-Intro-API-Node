@@ -75,3 +75,27 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+// EXERCÍCIO deverá retornar o titulo, plot, generos e lingua, sendo que genero e lingua devem ser apresentados em arrays no console
+
+
+console.log('***************** Titulos e Plot ***********')
+for (let i = 0; i < obj.length; i++) {
+    let nomeTitulo = obj[i]
+    let descPlot = obj[i]
+    console.log(nomeTitulo.Title)
+    console.log('Plot: ' , descPlot.Plot)
+}
+
+console.log('******************* Array Gênero ************')
+for (let i = 0; i < obj.length; i++) {
+    let nomeGenero = obj[i]
+    console.log('Lista ', nomeGenero.Genre)
+}
+
+console.log('******************* Array Linguagem ************')
+for (let i = 0; i < obj.length; i++) {
+    let tipoLingua = obj[i]
+    console.log('Lista ', tipoLingua.Language)
+}
+console.log('_____________________fim___________________________')

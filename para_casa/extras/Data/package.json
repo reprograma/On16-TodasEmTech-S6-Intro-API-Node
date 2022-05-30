@@ -1,0 +1,14 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "Exercicio extras",
+  "main": "colors-rgb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "colors": "node colors-rgb.js",
+    "filmes": "node filmes.js",
+    "siglas": "node estados-cidades.js"
+  },
+  "author": "Nilva Pires",
+  "license": "ISC"
+}

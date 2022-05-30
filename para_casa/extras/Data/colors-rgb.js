@@ -149,3 +149,17 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//Exercicio o codigo devera retornar com o nome da cor e o codigo RGB 
+console.log('***************** Nome da cor ***********')
+for (let i = 0; i < obj.length; i++) {
+    let nomeCor = obj[i]
+    console.log('COR:', nomeCor.aliceblue)
+    
+}
+
+console.log('******************* Codigo Rgb ************')
+for (let i = 0; i < obj.length; i++) {
+    let numberRgb = obj[i]
+    console.log('RGB ',numberRgb = [102, 51, 153, 1] )
+}

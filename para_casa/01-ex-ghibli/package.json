@@ -1,13 +1,12 @@
 {
-  "name": "on16-intro-api",
+  "name": "01-ex-ghibli",
   "version": "1.0.0",
-  "description": "Projeto teste de introdução a API",
+  "description": "Exercicio de API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node script.js"
   },
-  "keywords": [],
   "author": "Nilva Pires",
   "license": "ISC",
   "dependencies": {

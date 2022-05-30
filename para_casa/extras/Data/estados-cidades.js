@@ -5735,3 +5735,5 @@ const data = [{
     ]
   }
 ]
+
+// EXERCÍCIO o codigo deverá retornar o nome do estado e a sigla
